@@ -54,6 +54,8 @@ p {
     margin-left:150px;
 }
 footer {
+    position:fixed;
+    bottom:0;
     font-size: 14px;
     color:dimgrey;
     background-color:lightgrey;
@@ -66,5 +68,14 @@ footer {
     margin-bottom: 2%;
 }
 .fb-like {
-    margin-left:150px;
+    font-size: 14px;
+    color:dimgrey;
+    background-color:lightgrey;
+    padding-bottom: 1px;
+    padding-left: 2px;
+    padding-right: 2%;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 2%;
 }
