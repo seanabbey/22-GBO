@@ -27,18 +27,24 @@ h1 { /* Title Header */
 }
 
 h2 { /* Page Header */
-    margin-left: 2%;
+    color: #4388ff;
+    margin-left: 2px;
     font-size: 2.5em;
+    margin-bottom: 0;
 }
 
 h3 { /* Sub-Title Header */
-    margin-left: 2%;
+    color: #1d3cff;
+    margin: 2%;
+    padding: 0;
     font-size: 2em;
 }
 
 h4 { /* Announcement Header */
     font-size: 2.5em;
     color: red;
+    margin: 0;
+    text-align: center;
 }
 nav ul {
     list-style-type: none;
@@ -68,8 +74,13 @@ nav li a:hover:not(.active) {
     color: white;
 }
 
-#midCol p {
+#midcol p {
     margin-left: 2%;
+}
+
+#rightcol p {
+    margin-left: 2%;
+
 }
 #container {
     width: 95%;
@@ -77,9 +88,9 @@ nav li a:hover:not(.active) {
     margin-right: auto;
 }
 
-#midCol {
-    margin-left: 8%;
-    margin-top: -3%;
+#midcol {
+    margin-left: 8em;
+    margin-top: -2.5%;
     width: 60%;
     float: left;
     text-align: left;
@@ -92,19 +103,37 @@ nav li a:hover:not(.active) {
     text-align: left;
 }
 
+#announcementbox {
+    clear: both;
+    border: groove gold;
+    width: 120%;
+    min-width: 18em;
+}
+
+#ticketsbox {
+    margin-top: 20%;
+    padding: 2%;
+    text-align: center;
+    font-size: 1.4em;
+    clear: both;
+    background: darkgrey;
+    color: red;
+    border: groove thick white;
+    width: 25%;
+    min-width: 10em;
+}
+
 footer {
-    position: absolute;
-    bottom: 0;
-    font-size: 14px;
-    color: dimgrey;
+    padding: 10px;
     background-color: lightgrey;
-    padding-bottom: 1px;
-    padding-left: 2px;
-    padding-right: 2%;
-    margin-top: 2%;
+    color: dimgrey;
+    text-align: center;
+    font-size: 14px;
+    width: 50%;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 2%;
+    border: groove lightblue;
+    clear: both;
 }
 
 .fb-like {
