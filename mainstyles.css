@@ -1,11 +1,11 @@
-body{
-    background-color:silver;
+body {
+    background-color: silver;
 }
 
 h1 {
     font-size: 32px;
-    color:dimgrey;
-    background-color:lightgrey;
+    color: dimgrey;
+    background-color: lightgrey;
     font-style: italic;
     padding-bottom: 1px;
     padding-left: 2px;
@@ -47,18 +47,38 @@ li a:hover:not(.active) {
 }
 
 h2 {
-    margin-left:150px;
+    margin-left: 150px;
 }
 
 p {
-    margin-left:150px;
+    margin-left: 150px;
 }
+#container {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#midCol {
+    margin: 1em;
+    width: 38%;
+    float: left;
+    text-align: left;
+}
+
+#rightcol {
+    margin: 1em;
+    width: 23%;
+    float: left;
+    text-align: left;
+}
+
 footer {
-    position:fixed;
-    bottom:0;
+    position: fixed;
+    bottom: 0;
     font-size: 14px;
-    color:dimgrey;
-    background-color:lightgrey;
+    color: dimgrey;
+    background-color: lightgrey;
     padding-bottom: 1px;
     padding-left: 2px;
     padding-right: 2%;
@@ -67,10 +87,11 @@ footer {
     margin-right: 2%;
     margin-bottom: 2%;
 }
+
 .fb-like {
     font-size: 14px;
-    color:dimgrey;
-    background-color:lightgrey;
+    color: dimgrey;
+    background-color: lightgrey;
     padding-bottom: 1px;
     padding-left: 2px;
     padding-right: 2%;
