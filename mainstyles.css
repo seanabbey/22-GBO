@@ -8,9 +8,6 @@ header{
     min-width: 20em;
     text-align: center;
 }
-nav {
-    width: 2em;
-}
 
 h1 { /* Title Header */
     font-size: 3em;
@@ -147,4 +144,14 @@ footer {
     margin-left: 2%;
     margin-right: 2%;
     margin-bottom: 2%;
+}
+
+input {
+    display: inline;
+    margin-left: 5px;
+    max-width: 10em;
+}
+
+button {
+    margin: 0 0 0 8%;
 }
