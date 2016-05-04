@@ -1,5 +1,5 @@
 body {
-    background-color: silver;
+    background-color: white;
 }
 header{
     margin-left: auto;
@@ -59,6 +59,13 @@ nav li a {
     text-align: center;
     border: 1px solid #555;
     font-size: 12px;
+}
+.navbar-default {
+    background-color: transparent;
+}
+
+.navbar-static-top {
+    border-width:0 0 0 0;
 }
 
 nav li a.active {
