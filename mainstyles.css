@@ -8,64 +8,52 @@ header{
     min-width: 18.5em;
     text-align: center;
 }
-
 ul.nav.navbar-nav li a{
     color: white;
     font-size: 12px;
 }
-
 ul li ul.dropdown-menu li a {
     display: block;
     padding: 14px 16px;
     min-width: 3em;
 }
-
 nav ul {
-
     list-style-type: none;
     margin: 0;
     padding: 0;
     background-color: transparent;
     overflow: inherit;
 }
-
 nav ul li {
     float: left;
     border:1px solid #bbb
 }
-
 nav ul li a {
     display: block;
     background: #4388ff;
     padding: 14px 16px;
     text-decoration: none;
 }
-
 nav ul li a:hover {
-background: #FFFFFF;
-color: #000000;
+    background: #FFFFFF;
+    color: #000000;
 }
-
 nav li:hover ul {
     display: block;
     position: absolute;
 }
-
 nav li:hover li {
     float: none;
 }
-
 nav li:hover li a:hover {
     background: #FFFFFF;
     color: #000000;
 }
-
 .navbar-default {
     background-color: transparent;
     border-color: transparent;
     margin-left: 6.5em;
 }
-
 .navbar-default .navbar-nav .active a, .navbar-default .navbar-nav .active a:focus, .navbar-default .navbar-nav .active a:hover {
     background: blue;
     color: white;
@@ -82,49 +70,41 @@ h1 { /* Title Header */
     margin-right: 2%;
     margin-bottom: 2%;
 }
-
 h2 { /* Page Header */
     color: #4388ff;
     margin-left: 2px;
     font-size: 2.5em;
     margin-bottom: 0;
 }
-
 h3 { /* Sub-Title Header */
     color: #1d3cff;
     margin: 2%;
     padding: 0;
     font-size: 2em;
 }
-
 h4 { /* Announcement Header */
     font-size: 2.5em;
     color: red;
     margin: 0;
     text-align: center;
 }
-
 h5 {
     font-size: 1.1em;
 }
 #midcol p {
     margin-left: 2%;
 }
-
 #rightcol p {
     margin-left: 2%;
-
 }
 #container h3 {
     margin: 0.5em 0 0 0;
 }
-
 #container {
     width: 95%;
     margin-left: auto;
     margin-right: auto;
 }
-
 #leftcol {
     margin-right: 5px;
     overflow: auto;
@@ -138,15 +118,12 @@ h5 {
     float: left;
     text-align: left;
 }
-
 #wordsss {
     text-align: center;
 }
-
 #words {
     text-align: center;
 }
-
 #rightcol {
     margin: 1em;
     width: 20%;
@@ -171,7 +148,6 @@ h5 {
     overflow: auto;
     margin: 4em 1em 2em 2em;
 }
-
 #donatebox {
     width: 260px;
     padding: 16px;
@@ -180,7 +156,6 @@ h5 {
     color: #4388ff;
     text-align: center;
 }
-
 #announcementbox {
     clear: both;
     border: dotted #000000;
@@ -200,9 +175,7 @@ h5 {
     margin: 9px ;
     color: #4388ff;
     text-align: center;
-
 }
-
 #rules {
     width: 260px;
     padding: 16px;
@@ -210,9 +183,7 @@ h5 {
     margin: 9px ;
     color: #4388ff;
     text-align: center;
-
 }
-
 #ticketsboxs1 {
     width: 267px;
     padding: 16px;
@@ -221,7 +192,6 @@ h5 {
     color: #4388ff;
     text-align: center;
 }
-
 #ticketsboxs2 {
     width: 267px;
     padding: 16px;
@@ -230,9 +200,6 @@ h5 {
     color: #4388ff;
     text-align: center;
 }
-
-
-
 #repertoire {
     width: 260px;
     padding: 16px;
@@ -241,8 +208,6 @@ h5 {
     color: #4388ff;
     text-align: center;
 }
-
-
 footer {
     padding: 10px;
     background-color: lightgrey;
@@ -255,7 +220,6 @@ footer {
     border: groove lightblue;
     clear: both;
 }
-
 .fb-like {
     font-size: 14px;
     color: dimgrey;
@@ -268,17 +232,14 @@ footer {
     margin-right: 2%;
     margin-bottom: 2%;
 }
-
 input {
     display: inline;
     margin-left: 5px;
     max-width: 10em;
 }
-
 button {
     margin: 0 0 0 8%;
 }
-
 @media (min-width:51em)
 {
     header {
@@ -304,22 +265,53 @@ button {
     #left {
         width: 0;
     }
-
     #midcol {
         margin: 0 0 2px 2px;
         width: 100%;
     }
-
     #announcementbox {
         width: 19em;
         margin-left: -1em;
         visibility: hidden;
-
     }
-
     nav {
         margin-left: 6em;
     }
+}
+/*for events page*/
+#test2 {
+    margin-top: 2%;
+    text-align: left;
+    background-color:#4388ff;
+    padding:10px;
+    height:540px
+}
+h6 {
+    text-align:left;
+    font-weight:bold;
+    font-size:14pt;
+    color:white;
+}
+#test4 {
+    font-size : 10pt;
+    font-weight : normal;
+    color:#000000;
+}
+#test5 {
+    text-align: left;
+    text-decoration:none;
+    height:60px;
+    border:2px solid black;
+    margin : 2px 5px 2px 5px;
+    padding : 2px 5px 2px 5px;
+    background-color:white;
+    color:black;
+}
+#test6 {
+    text-align:left;
+    text-decoration:none;
+    font-weight:normal;
+    font-size:10pt;
 }
 /*for events page*/
 #test2 {
