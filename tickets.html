@@ -11,9 +11,14 @@
     if (d.getElementById(id)) return;
     js = d.createElement(s);
     js.id = id;
-    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.6";
+    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.   6";
     fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+}(document, 'script', 'facebook-jssdk'));
+
+function submitAlert() {
+    alert("Your information has been submitted.");
+}</script>
+
 <html>
 <body>
 <div id="container">
@@ -26,7 +31,7 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="people.html">People/Special Guests</a></li>
                 <li><a href="events.html">Events/Concerts</a></li>
-                <li><a href="#">Photo Gallery</a>
+                <li><a href="photos_hsn.html">Photo Gallery</a>
                     <ul>
                         <li><a href="photos_hsn.html">Hot Summer Night</a></li>
                         <li><a href="photos_inst.html">Instruments</a></li>
@@ -54,7 +59,7 @@
         <p>Pensioner Tickets:<input></p>
         <p>Adult Tickets:<input></p>
         <p>Child Tickets:<input></p>
-        <button>Book Now!</button>
+        <button onclick="submitAlert()">Submit</button>
     </div>
 
     <div id="rightcol">

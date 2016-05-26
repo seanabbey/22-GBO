@@ -14,9 +14,19 @@
     js.id = id;
     js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.6";
     fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+}(document, 'script', 'facebook-jssdk'));
+</script>
 <html>
 <body>
+<ul class="topnav">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">News</a></li>
+    <li><a href="#">Contact</a></li>
+    <li><a href="#">About</a></li>
+    <li class="icon">
+        <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
+    </li>
+</ul>
 <div id="container">
     <div id="leftcol"><a href="index.html"><img src="BRO_Logo.PNG" height="130" width="91"></a></div>
     <header><h1>Barrier Reef Orchestra</h1></header>
@@ -38,6 +48,9 @@
                 <li><a href="about.html">About Us</a>
                 <li><a href="forms.html">Forms</a>
                 <li><a href="supporters.html">Supporters</a>
+                <li class="icon">
+                    <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
+                </li>
             </ul>
         </div>
     </nav>
@@ -79,9 +92,9 @@
             <p>Twilight Classics on 17/07/2016
                 Arthur Athan on piano and Mario Dobernig conducting</p>
         </div>
-        <div id="ticketsboxs">
+        <div id="ticketsboxs1">
             <strong><a href="forms.html">BECOME A MEMBER</a></strong></div>
-        <div id="ticketsbox2">
+        <div id="ticketsboxs2">
             <strong><a href="tickets.html">BUY TICKETS</a></strong></div>
     </div>
 </div>
@@ -92,6 +105,10 @@
     <div class="fb-like" data-href="https://www.facebook.com/nqorchestra" data-width="10" data-layout="standard"
          data-action="like" data-show-faces="true" data-share="true"></div>
 </footer>
-
+<script>
+    function myFunction() {
+        document.getElementsByClassName("topnav")[0].classList.toggle("responsive");
+    }
+</script>
 </body>
 </html>
