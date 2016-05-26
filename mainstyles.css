@@ -8,10 +8,7 @@ header{
     min-width: 18.5em;
     text-align: center;
 }
-#container #midcol a {
-    float: left;
 
-}
 h1 { /* Title Header */
     font-size: 3em;
     color: darkgray;
