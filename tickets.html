@@ -13,15 +13,11 @@
     js.id = id;
     js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.6";
     fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));
-function submitAlert() {
-    alert("Your information has been submitted.");
-}
-</script>
+}(document, 'script', 'facebook-jssdk'));</script>
 <html>
 <body>
 <div id="container">
-    <a href="index.html"><img src="BRO_Logo.PNG" height="130" width="91"></a>
+    <img src="BRO_Logo.PNG" height="130" width="91">
     <header><h1>Barrier Reef Orchestra</h1></header>
 
     <nav class="navbar navbar-default navbar-fixed-top">
@@ -30,7 +26,7 @@ function submitAlert() {
                 <li><a href="index.html">Home</a></li>
                 <li><a href="people.html">People/Special Guests</a></li>
                 <li><a href="events.html">Events/Concerts</a></li>
-                <li><a>Photo Gallery</a>
+                <li><a href="#">Photo Gallery</a>
                     <ul>
                         <li><a href="photos_hsn.html">Hot Summer Night</a></li>
                         <li><a href="photos_inst.html">Instruments</a></li>
@@ -47,22 +43,28 @@ function submitAlert() {
         <h2>The Barrier Reef Orchestra</h2>
         <h3>Buying Tickets</h3>
         <p>Here you can purchase tickets any upcoming events</p>
-        <p>Event name: <input></p>
+        <p>Event name:
+            <select>
+                <option value="TwiLight Classics">TwiLight Classics</option>
+                <option value="Dreams and Dances">Dreams and Dances</option>
+                <option value="Barrier Reef Orchestra goes to the Opera">Barrier Reef Orchestra goes to the Opera</option>
+            </select>
+        </p>
         <p>Pensioner Tickets:<input></p>
         <p>Adult Tickets:<input></p>
         <p>Child Tickets:<input></p>
-        <button onclick="submitAlert()">Book Now!</button>
+        <button>Book Now!</button>
     </div>
 
     <div id="rightcol">
         <div id="announcementbox">
             <h4>Announcements</h4>
-            <p>Next concert: <strong>Twilight Classics</strong>, 17th of July.</p>
+            <p>Next concert:</p>
             <p>World Music Concert on 5/09/2016</p>
             <p>New Life Members: Alan Nixon, Jacinta Payne</p>
         </div>
         <div id="ticketsbox">
-            <strong><a href="forms.html">HOW ABOUT SIGNING UP</a></strong>
+            <strong><a href="tickets.html">BUY TICKETS</a></strong>
         </div>
     </div>
     <footer>
