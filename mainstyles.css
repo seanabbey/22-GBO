@@ -169,6 +169,15 @@ nav li:hover li a:hover {
     margin: 4em 1em 2em 2em;
 }
 
+#donatebox {
+    width: 260px;
+    padding: 16px;
+    border: 5px solid #4388ff;
+    margin: 9px ;
+    color: #4388ff;
+    text-align: center;
+}
+
 #announcementbox {
     clear: both;
     border: dotted #000000;
