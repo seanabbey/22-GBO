@@ -168,6 +168,9 @@ nav li:hover li a:hover {
     text-align: left;
 }
 
+#words {
+    text-align: center;
+}
 
 #rightcol {
     margin: 1em;
