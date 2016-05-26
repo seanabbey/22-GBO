@@ -154,7 +154,11 @@ nav li:hover li a:hover {
     margin-left: auto;
     margin-right: auto;
 }
-
+#leftcol {
+    margin-right: 5px;
+    overflow: auto;
+    width: 7em;
+}
 #midcol {
     padding-bottom: 10px;
     margin-left: 8em;
@@ -225,4 +229,43 @@ input {
 
 button {
     margin: 0 0 0 8%;
+}
+
+@media (min-width:45em)
+{
+    #midcol { width: 65%; }
+    #rightcol  { width: 25%; }
+    nav {
+        margin-left: 8em;
+    }
+}
+@media (min-width:30em) and (max-width:45em) {
+    #midcol {
+        width: 60%;
+    }
+
+    #rightcol  {
+        width: 15%;
+    }
+    nav {
+        margin-left: 6.5em;
+    }
+}
+@media (min-width:10em) and (max-width:30em) {
+    #left {
+        width: 0;
+    }
+
+    #midcol {
+        margin: 0 0 2px 2px;
+        width: 100%;
+    }
+
+    #rightcol {
+        width: 100%;
+    }
+
+    nav {
+        margin-left: 6em;
+    }
 }
