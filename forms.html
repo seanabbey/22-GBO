@@ -62,26 +62,41 @@ function submitAlert() {
             <input type="radio" name="membershipType" value="Student"> Student ($15)
             <input type="radio" name="membershipType" value="Child"> Under 18 ($15)
             <input type="radio" name="membershipType" value="Concenssion"> Concession ($15)<br>
-            studentConcessionNumber: <input type="text" name="studentConcessionNumber" value=""> <br>
+            Student Concession Number: <input type="text" name="StudentConcessionNumber" value="">
+            <br>
+            <br>
             <h5>Applicant Details:</h5>
             <input type="radio" name="title" value="Mr"> Mr
             <input type="radio" name="title" value="Mrs"> Mrs
             <input type="radio" name="title" value="Ms"> Ms<br>
-            Family Name: <input type="text" name="FamilyName" value=""> <br>
-            Given Name:  <input type="text" name="Given Names" value=""> <br>
-            Address:     <input type="text" name="Adress" value=""><br>
-            Payment option:<br>
+            Family Name: <input type="text" name="FamilyName" value="">
+            <br>
+            Given Name:  <input type="text" name="Given Names" value="">
+            <br>
+            Address:     <input type="text" name="Adress" value="">
+            <br>
+            <br>
+            Payment option:
+            <br>
             <input type="radio" name="paymentOption" value="cash"> Cash
             <input type="radio" name="paymentOption" value="Cheque"> Cheque
             <input type="radio" name="paymentOption" value="paypal"> Paypal
-            <input type="radio" name="paymentOption" value="credit"> Credit Card <br>
-            I am interested in: <br>
-            <input type="checkbox" name="interest" value="playing"> Playing <br>
-            <input type="checkbox" name="interest" value="Management"> Management/Adminstraion<br>
-            <input type="checkbox" name="interest" value="Player Support"> Player Support<br>
-            <input type="checkbox" name="interest" value="fundraising"> Fundraising<br>
+            <input type="radio" name="paymentOption" value="credit"> Credit Card
+            <br>
+            <br>
+            I am interested in:
+            <br>
+            <input type="checkbox" name="interest" value="playing"> Playing
+            <br>
+            <input type="checkbox" name="interest" value="Management"> Management/Adminstraion
+            <br>
+            <input type="checkbox" name="interest" value="Player Support"> Player Support
+            <br>
+            <input type="checkbox" name="interest" value="fundraising"> Fundraising
+            <br>
             <input type="checkbox" name="interest" value="MarkertingPromotion"> Marketing and Promotion<br>
-            <input type="checkbox" name="interest" value="Sponsorship"> Sponsorship<br>
+            <input type="checkbox" name="interest" value="Sponsorship"> Sponsorship
+            <br>
             <br>
             <button onclick="submitAlert()">Submit</button>
         </form>
