@@ -212,6 +212,32 @@ nav li:hover li a:hover {
     min-width: 10em;
 }
 
+#rules {
+    margin-top: 20%;
+    padding: 2%;
+    text-align: center;
+    font-size: 1.4em;
+    clear: both;
+    background: darkgrey;
+    color: red;
+    border: groove thick white;
+    width: 25%;
+    min-width: 10em;
+}
+
+#repertoire {
+    margin-top: 20%;
+    padding: 2%;
+    text-align: center;
+    font-size: 1.4em;
+    clear: both;
+    background: darkgrey;
+    color: red;
+    border: groove thick white;
+    width: 25%;
+    min-width: 10em;
+}
+
 footer {
     padding: 10px;
     background-color: lightgrey;
