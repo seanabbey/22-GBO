@@ -13,7 +13,11 @@
     js.id = id;
     js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.6";
     fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+}(document, 'script', 'facebook-jssdk'));
+function submitAlert() {
+    alert("Your information has been submitted.");
+}
+</script>
 <html>
 <body>
 <div id="container">
@@ -41,12 +45,17 @@
     </nav>
     <div id="midcol">
         <h2>Membership</h2>
-        <p>By becoming a member you are supporting Townsville’s Community Orchestra which was formed in 2000.</p>
-        <h5><strong>Membership Application North Queensland Ensembles Inc</strong></h5>
+        <br>
+        By becoming a member you are supporting Townsville’s Community Orchestra which was formed in 2000.
+        <h5>
+            <br>
+            <strong>Membership Application North Queensland Ensembles Inc</strong>
+        </h5>
         <form>
-
             <input type="radio" name="membertype" value="renewMember"> Renew Membership
-            <input type="radio" name="membertype" value="NewMember">New Membership<br>
+            <input type="radio" name="membertype" value="NewMember">New Membership
+            <br>
+            <br>
             <h5>Membership Type:</h5>
             <input type="radio" name="membershipType" value="adult"> Adult ($30)
             <input type="radio" name="membershipType" value="Family"> Family ($60)
@@ -74,7 +83,7 @@
             <input type="checkbox" name="interest" value="MarkertingPromotion"> Marketing and Promotion<br>
             <input type="checkbox" name="interest" value="Sponsorship"> Sponsorship<br>
             <br>
-            <input type="submit" value="Submit">
+            <button onclick="submitAlert()">Submit</button>
         </form>
     </div>
 
