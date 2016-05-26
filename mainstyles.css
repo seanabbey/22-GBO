@@ -171,59 +171,55 @@ nav li:hover li a:hover {
 
 #announcementbox {
     clear: both;
-    border: dotted #ffee15;
+    border: dotted #000000;
     min-width: 19em;
+    text-align: center;
 }
 #supporterstbox {
     clear: both;
-    border: 3px dotted #000000;
+    border: dotted #000000;
     min-width: 19em;
     text-align: center;
 }
 #ticketsbox {
-    margin-top: 20%;
-    padding: 2%;
-    text-align: center;color: white;
-    font-size: 1.4em;
-    clear: both;
-    background: blue;
-    color: red;
-    border: groove thick white;
-    width: 25%;
-    min-width: 10em;
+    width: 260px;
+    padding: 16px;
+    border: 5px solid #4388ff;
+    margin: 9px ;
+    color: #4388ff;
+    text-align: center;
+
 }
 
 #rules {
-    padding: 2%;
+    width: 260px;
+    padding: 16px;
+    border: 5px solid #4388ff;
+    margin: 9px ;
+    color: #4388ff;
     text-align: center;
-    font-size: 1.4em;
-    clear: both;
-    background: darkgrey;
-    color: red;
-    border: groove thick white;
-    width: 25%;
-    min-width: 10em;
-    margin-bottom: 2em;
+
 }
+
+#ticketboxs {
+    width: 260px;
+    padding: 16px;
+    border: 5px solid #4388ff;
+    margin: 9px ;
+    color: #4388ff;
+    text-align: center;
+}
+
 
 #repertoire {
-    padding: 2%;
+    width: 260px;
+    padding: 16px;
+    border: 5px solid #4388ff;
+    margin: 9px ;
+    color: #4388ff;
     text-align: center;
-    font-size: 1.4em;
-    clear: both;
-    background: darkgrey;
-    color: red;
-    border: groove thick white;
-    width: 25%;
-    min-width: 10em;
 }
 
-#repertoire a, #rules a {
-    float: left;
-    text-align: center;
-    background-color: yellow;
-    overflow: auto;
-}
 
 footer {
     padding: 10px;
