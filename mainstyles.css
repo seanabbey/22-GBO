@@ -183,6 +183,11 @@ nav li:hover li a:hover {
     text-align: left;
 }
 
+#container img {
+    horiz-align: left;
+    clear: both;
+}
+
 #announcementbox {
     clear: both;
     border: groove gold;
