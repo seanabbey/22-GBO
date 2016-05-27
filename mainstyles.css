@@ -301,6 +301,9 @@ h6 {
     font-weight : normal;
     color:#000000;
 }
+.eventsimagebox a {
+    color: yellow;
+}
 .eventsticketsbox {
     text-align: left;
     text-decoration:none;
@@ -329,6 +332,9 @@ h6 {
     font-size : 10pt;
     font-weight : normal;
     color:#000000;
+}
+#eventsimageboxB a {
+    color: yellow;
 }
 #eventsticketsboxB {
     text-align: left;
